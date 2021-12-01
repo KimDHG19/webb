@@ -1,0 +1,324 @@
+
+
+html {
+    scroll-behavior: smooth;
+
+}
+a:link {
+    color: rgba(66, 66, 66, 0.972);
+  }
+
+a:hover {
+    color: rgb(92, 92, 92);
+  }
+  
+a:active {
+    color: rgba(4, 4, 167, 0.041);
+  }
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    background: url(img/DSC04449.jpg) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 4em;
+    z-index: 1;
+    
+  }
+
+nav {
+    position: fixed!important;
+    top: 0;
+    z-index: 90;
+    background-color: lightgray!important;
+    font-size: 1.2em!important;
+    width: 100%;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.nav-link {
+    color: black !important;
+    
+}
+  
+.nav-link:hover {
+    color: rgb(149, 149, 149) !important;
+    
+}
+
+.header, .subtitle {
+    margin: auto auto 10px;
+    width: 90%;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    color:#eee;
+    letter-spacing: 1px;
+}
+  
+.header { 
+    font-size: 9em;
+    margin-top: 11vh;
+}
+
+.subtitle {
+    font-size: 2.2em;
+    margin-top: 10vh;
+}
+
+.downarrow {
+    position: absolute;
+    margin: auto 0 auto 24.2vw;
+    width: auto;
+    text-align: center;
+    font-size: 2em;
+    top: 43vh;
+    color:#eee;
+    z-index: 99;
+}
+
+.content-header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 68.715%;
+    padding: 10px;
+    text-align: center;
+    font-size: 4em;
+    margin-top: 3vh;
+    color:rgb(5, 5, 5);
+    letter-spacing: 1px;
+}
+
+.content-text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    width: 68.715%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    color:rgb(119, 117, 117);
+    letter-spacing: 1px;
+}
+
+#content-container {
+    margin-top: 102vh;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+    width: 77%;
+    padding: 11px 0 1em;
+    text-align: center;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+
+#about {
+    padding: 10px;
+}
+
+.skill-table, th, td {
+    margin: 0 auto 5vh;
+    text-align: left;
+    border-spacing: 15vw;
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 2%;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    height: 300px;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    width: 300px;
+}
+.card:hover {
+    height: 450px;
+    width: 300px;
+}
+.card:hover .cta-container {
+    display: inline;
+    margin-top: 380px;
+}
+.card:hover .card_circle {
+    background-size: cover;
+    border-radius: 0;
+    margin-top: -130px;
+}
+.card:hover h2 {
+    background: #3487f7;
+    color: #fff;
+    margin-top: 100px;
+    padding: 5px;
+}
+.card:hover h2 small { color: #fff }
+.card:hover p { margin-top: 300px }
+
+
+.footer {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 auto;
+
+    color: rgb(190, 190, 190);
+    background-color: rgb(41, 41, 41);
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 864px) {
+    .header, .subtitle {
+        width: 80.715%;
+    }
+
+    .header {
+        font-size: 5em;
+    }
+
+    .subtitle {
+        font-size: 1.5em;
+    }
+
+
+    .content-header {
+        text-align: center;
+        font-size: 3em;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content {
+        margin-bottom: 1.5em;
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .content-text {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        padding: 7px;
+        font-size: 1.5em;
+        margin-top: 10px;
+        letter-spacing: 1px;
+    }
+
+}
+
+@media screen and (max-width: 545px) {
+    .header, .subtitle {
+        width: 80.715%;
+    }
+
+    .header {
+        font-size: 4em;
+    }
+
+    .subtitle {
+        font-size: 1.5em;
+        width: 90%;
+    }
+
+    .downarrow {
+        width: auto;
+        font-size: 1.5em;
+        top: 43vh;
+    }
+
+    .content-header {
+        text-align: center;
+        font-size: 1.5em;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content {
+        margin-bottom: 1.5em;
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .content-text {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        padding: 7px;
+        font-size: 1em;
+        margin-top: 10px;
+        letter-spacing: 1px;
+    }
+
+    .skill-table, th, td {
+        border-spacing: 10vw;
+        border: 0.7px solid black;
+    }
+
+    th, td {
+        padding: 1.5%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    nav {
+        display: none;
+    }
+    .header {
+        margin-top: 70px;
+        text-align: center;
+        width: 90%;
+        font-size: 3em;
+    }
+    
+    .subtitle {
+        font-size: 1.25em;
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .header {
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .subtitle {
+        font-size: 1em;
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    .downarrow {
+        display: none;
+    }
+
+}

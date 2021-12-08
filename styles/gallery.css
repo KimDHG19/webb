@@ -1,0 +1,11 @@
+.Gallery {
+    height: 80%;
+    width: 80%;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.carousel-slide{
+    margin: 0 auto;
+    max-width: 80%;
+}

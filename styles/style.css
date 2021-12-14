@@ -5,7 +5,7 @@ html {
 
 }
 a:link {
-    color: rgba(66, 66, 66, 0.972);
+    color: rgba(125, 124, 124, 0.97);
   }
 
 a:hover {
@@ -36,7 +36,7 @@ nav {
     position: fixed!important;
     top: 0;
     z-index: 90;
-    background-color: lightgray!important;
+    background: rgb(48, 48, 48) !important;
     font-size: 1.2em!important;
     width: 100%;
 }
@@ -48,7 +48,7 @@ nav {
 }
 
 .nav-link {
-    color: black !important;
+    color: #dedddd !important;
     
 }
   
@@ -77,17 +77,6 @@ nav {
     margin-top: 10vh;
 }
 
-.downarrow {
-    position: absolute;
-    margin: auto 0 auto 24.2vw;
-    width: auto;
-    text-align: center;
-    font-size: 2em;
-    top: 43vh;
-    color:#eee;
-    z-index: 99;
-}
-
 .content-header {
     margin-left: auto;
     margin-right: auto;
@@ -96,7 +85,7 @@ nav {
     text-align: center;
     font-size: 4em;
     margin-top: 3vh;
-    color:rgb(5, 5, 5);
+    color: rgb(39, 39, 39);
     letter-spacing: 1px;
 }
 
@@ -150,8 +139,8 @@ th, td {
     font-size: 1.5em;
     margin: 0 auto;
 
-    color: rgb(190, 190, 190);
-    background-color: rgb(41, 41, 41);
+    color: #dedddd!important;
+    background: rgb(48, 48, 48) !important;
     letter-spacing: 1px;
 }
 

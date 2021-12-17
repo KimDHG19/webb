@@ -1,0 +1,278 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#christmasCalendar {
+    margin-top: 105vh;
+}
+
+body {
+    background-size: cover;
+    background: url("../img/cal-background.jpg") repeat center center;
+}
+section div {
+    background: transparent;
+
+    padding: 40px;
+}
+
+.grid-1 {
+    display: grid;
+    width: 96%;
+    max-width: 900px;
+    margin: 2% auto;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 25px;
+
+    grid-template-areas:    "t      t       t"
+                        "d23    d20     d12"
+                        "d2     d14     d4"
+                        "d5     d22     d16"
+                        "d1     d7      d9"
+                        "d10    d11     d18"
+                        "d13    d3      d15"
+                        "d6     d17     d8"
+                        "d19    d24     d21"
+                        "d24    d24     d21";
+}
+/* styling title */
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title img {
+    width: 90%;
+    height: auto;
+}
+
+/* assigning grid areas and adding back image*/
+
+.title {
+    grid-area: t;
+}
+.day-1 {
+    grid-area: d1;
+}
+.day-1 .back{
+    background: url("../img/backimages/1.png");
+}
+.day-2 {
+    grid-area: d2;
+}
+.day-1 .back{
+    background: url("../img/backimages/2.png");
+}
+.day-3 {
+    grid-area: d3;
+}
+.day-1 .back{
+    background: url("../img/backimages/3.png");
+}
+.day-4 {
+    grid-area: d4;
+}
+.day-1 .back{
+    background: url("../img/backimages/4.png");
+}
+.day-5 {
+    grid-area: d5;
+}
+.day-1 .back{
+    background: url("../img/backimages/5.png");
+}
+.day-6 {
+    grid-area: d6;
+}
+.day-1 .back{
+    background: url("../img/backimages/6.png");
+}
+.day-7 {
+    grid-area: d7;
+}
+.day-1 .back{
+    background: url("../img/backimages/7.png");
+}
+.day-8 {
+    grid-area: d8;
+}
+.day-1 .back{
+    background: url("../img/backimages/8.png");
+}
+.day-9 {
+    grid-area: d9;
+}
+.day-1 .back{
+    background: url("../img/backimages/9.png");
+}
+.day-10 {
+    grid-area: d10;
+}
+.day-1 .back{
+    background: url("../img/backimages/10.png");
+}
+.day-11 {
+    grid-area: d11;
+}
+.day-1 .back{
+    background: url("../img/backimages/11.png");
+}
+.day-12 {
+    grid-area: d12;
+}
+.day-1 .back{
+    background: url("../img/backimages/12.png");
+}
+.day-13 {
+    grid-area: d13;
+}
+.day-1 .back{
+    background: url("backimages/13");
+}
+.day-14 {
+    grid-area: d14;
+}
+.day-1 .back{
+    background: url("backimages/14");
+}
+.day-15 {
+    grid-area: d15;
+}
+.day-1 .back{
+    background: url("backimages/15");
+}
+.day-16 {
+    grid-area: d16;
+}
+.day-1 .back{
+    background: url("backimages/16");
+}
+.day-17 {
+    grid-area: d17;
+}
+.day-1 .back{
+    background: url("backimages/17");
+}
+.day-18 {
+    grid-area: d18;
+}
+.day-1 .back{
+    background: url("backimages/18.png");
+}
+.day-19 {
+    grid-area: d19;
+}
+.day-1 .back{
+    background: url("backimages/19.png");
+}
+.day-20 {
+    grid-area: d20;
+}
+.day-1 .back{
+    background: url("backimages/20.png");
+}
+.day-21 {
+    grid-area: d21;
+}
+.day-1 .back{
+    background: url("backimages/21.png");
+}
+.day-22 {
+    grid-area: d22;
+}
+.day-1 .back{
+    background: url("backimages/22.png");
+}
+.day-23 {
+    grid-area: d23;
+}
+.day-1 .back{
+    background: url("backimages/23.png");
+}
+.day-24 {
+    grid-area: d24;
+}
+.day-1 .back{
+    background: url("../img/backimages/24.png");
+}
+
+/* Door styling */
+
+.grid-1 input {
+    display: none;
+}
+
+label {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    cursor: pointer;
+
+    display: flex;
+    min-height: 100%;
+    width: 100%;
+    height: 120px;
+}
+
+.door {
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: all 300ms;
+}
+
+.door div {
+    font-family: 'Kalam', cursive;
+    color: red;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.2);
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.door .back {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #2e313d;
+    transform: rotateY(180deg);
+}
+
+label:hover .door {
+    border-color: #385052;
+}
+
+:checked + .door {
+    transform: rotateY(180deg);
+}
+
+/* Media screens */
+
+@media only screen and (min-width: 600px) {
+
+    .grid-1 {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas:    "t      t       t       d2      d7      d8"
+                            "t      t       t       d4      d11     d12"
+                            "t      t       t       d19     d9      d13"
+                            "d6     d1      d24     d24     d21     d20"
+                            "d17    d18     d24     d24     d5      d22"
+                            "d3     d23     d16     d14     d10     d15";
+    }
+
+}
+
+

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b444fe2-e3a3-4db4-9cfc-002fab87146c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/styles/gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/calendar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/card-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/card-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/calendar-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/calendar-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/nav-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/nav-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -29,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -42,12 +46,16 @@
       <recent name="C:\Users\kimek\Desktop\webb-kim\webpage-kim\styles" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.calendar.html">
+    <configuration name="calendar.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpage-kim/html/calendar.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webpage-kim/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.calendar.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -61,6 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638343988595</updated>
       <workItem from="1638343989728" duration="14180000" />
+      <workItem from="1639723423274" duration="5152000" />
     </task>
     <servers />
   </component>
@@ -68,9 +77,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="484" y="223" key="run.anything.popup" timestamp="1638353160028">
+    <state x="690" y="0" key="#HTML" timestamp="1639552287511">
       <screen x="0" y="0" width="1825" height="987" />
     </state>
-    <state x="484" y="223" key="run.anything.popup/0.0.1825.987@0.0.1825.987" timestamp="1638353160028" />
+    <state x="690" y="0" key="#HTML/0.0.1825.987@0.0.1825.987" timestamp="1639552287511" />
+    <state x="906" y="0" width="926" height="993" key="dock-window-2" timestamp="1639466059349">
+      <screen x="0" y="0" width="1825" height="987" />
+    </state>
+    <state x="906" y="0" width="926" height="993" key="dock-window-2/0.0.1825.987@0.0.1825.987" timestamp="1639466059349" />
+    <state x="185" y="167" width="1335" height="600" key="dock-window-3" timestamp="1639553376717">
+      <screen x="0" y="0" width="1825" height="987" />
+    </state>
+    <state x="185" y="167" width="1335" height="600" key="dock-window-3/0.0.1825.987@0.0.1825.987" timestamp="1639553376717" />
+    <state x="484" y="223" key="run.anything.popup" timestamp="1639728313447">
+      <screen x="0" y="0" width="1825" height="987" />
+    </state>
+    <state x="484" y="223" key="run.anything.popup/0.0.1825.987@0.0.1825.987" timestamp="1639728313447" />
   </component>
 </project>
